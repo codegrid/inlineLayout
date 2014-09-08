@@ -1,0 +1,23 @@
+* {
+  font-style: normal;
+}
+p {
+  font-size: 12px;
+  line-height: 18px;
+  background: #a6dbbe; /* green */
+}
+b {
+  font-size: 20px;
+  line-height: 30px;
+  background: white;
+}
+em {
+  font-size: 30px;
+  line-height: 40px;
+  background: orange;
+}
+i {
+  font-size: 40px;
+  line-height: 50px;
+  background: tomato;
+}
