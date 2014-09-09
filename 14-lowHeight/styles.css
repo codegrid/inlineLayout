@@ -1,6 +1,8 @@
 .photoBlock {
   background: tomato;
+  line-height: 50px;
 }
 .photoBlock img {
   vertical-align: top;
+  height: 40px;
 }
