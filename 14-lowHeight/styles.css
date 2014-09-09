@@ -1,0 +1,6 @@
+.photoBlock {
+  background: tomato;
+}
+.photoBlock img {
+  vertical-align: top;
+}
