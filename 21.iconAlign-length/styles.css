@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 0 0 10px;
+  background: #ddd;
+}
+img {
+  vertical-align: 4px;
+}
