@@ -1,0 +1,21 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* styles */
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0 0 10px 16px;
+  background: url(bullet.png) no-repeat 0 .45em;
+}

@@ -1,0 +1,27 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* styles */
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0 0 10px 32px;
+  text-indent: -32px;
+}
+img {
+  width: 24px;
+  height: 24px;
+  margin: -26px 8px -22px 0;
+  vertical-align: middle;
+}

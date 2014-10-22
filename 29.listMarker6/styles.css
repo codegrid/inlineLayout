@@ -1,0 +1,29 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* styles */
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0 0 10px 34px;
+  text-indent: -34px;
+}
+li .fa {
+  width: 30px;
+  margin: 0 4px 0 0;
+  line-height: 0;
+  font-size: 30px;
+  vertical-align: middle;
+  text-indent: 0;
+}

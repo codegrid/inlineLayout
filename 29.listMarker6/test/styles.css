@@ -1,0 +1,32 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* styles */
+
+div {
+  padding: 0 0 10px;
+}
+span {
+  display: inline-block;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  background: pink;
+}
+span.size1 { line-height: 0; }
+span.size2 { line-height: 5px; }
+span.size3 { line-height: 10px; }
+span.size4 { line-height: 15px; }
+span.size5 { line-height: 20px; }
+span.size6 { line-height: 25px; }
+span.size7 { line-height: 30px; }
+span.size8 { line-height: 35px; }
+span.size9 { line-height: 40px; }

@@ -1,0 +1,30 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* styles */
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0 0 10px 20px;
+  text-indent: -20px;
+}
+li a:before {
+  content: '';
+  display: inline-block;
+  background: url(bullet.png) no-repeat 0 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: -10px 4px -6px 0;
+}

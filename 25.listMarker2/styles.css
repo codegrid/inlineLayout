@@ -1,0 +1,32 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* styles */
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0 0 10px 36px;
+  text-indent: -36px;
+}
+span {
+  display: inline-block;
+  width: 28px;
+  margin: -26px 8px -22px 0;
+  background: #ddd;
+  vertical-align: middle;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
