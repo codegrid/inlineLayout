@@ -28,7 +28,7 @@ h2:first-child {
   padding: 5px 0;
   background: #ddd;
   direction: rtl; /* 右から左へ */
-  *zoom: 1; /* IE6,7 */
+  *zoom: 1; /* IE6,7バグ回避 */
 }
 .body .column {
   display: inline-block;
