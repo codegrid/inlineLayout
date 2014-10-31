@@ -1,0 +1,41 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+p {
+  margin: 10px;
+}
+
+/* styles */
+
+.body {
+  text-align: center;
+  width: 380px;
+  margin: 0 auto;
+  padding: 10px 0;
+  background: #ddd;
+  direction: rtl; /* 右から左へ */
+}
+.body div{
+  display: inline-block;
+  *display: inline; /* IE6,7 */
+  *zoom: 1; /* IE6,7 */
+  vertical-align: top;
+  text-align: left;
+  background: #bbb;
+  direction: ltr; /* 左から右へ */
+}
+.body div.main{
+  width: 250px;
+}
+.body div.side{
+  width: 100px;
+  margin: 0 10px 0 0;
+}

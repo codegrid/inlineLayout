@@ -1,0 +1,44 @@
+/* base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+p {
+  margin: 10px;
+  border: 1px solid #000;
+  width: 50px;
+}
+h2 {
+  padding: 20px 0 10px;
+}
+h2:first-child {
+  padding-top: 0;
+}
+
+/* styles */
+
+.body {
+  text-align: center;
+  padding: 5px 0;
+  background: #ddd;
+  direction: rtl; /* 右から左へ */
+  *zoom: 1; /* IE6,7 */
+}
+.body .column {
+  display: inline-block;
+  *display: inline; /* IE6,7 */
+  *zoom: 1; /* IE6,7 */
+  text-align: left;
+  background: #bbb;
+  margin: 5px;
+}
+.v-top .column { vertical-align: top; }
+.v-middle .column { vertical-align: middle; }
+.v-bottom .column { vertical-align: bottom; }
+
