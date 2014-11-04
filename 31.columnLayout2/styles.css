@@ -18,7 +18,7 @@ h2:first-child {
 p {
   margin: 10px;
   border: 1px solid #000;
-  width: 50px;
+  width: 20px;
 }
 
 /* column layout */
@@ -26,7 +26,6 @@ p {
 .body {
   text-align: center;
   background: #ddd;
-  direction: rtl; /* 右から左へ */
   *zoom: 1; /* IE6,7バグ回避 */
 }
 .body .column {
