@@ -22,7 +22,7 @@ p {
   background: #ddd;
   direction: rtl; /* 右から左へ */
 }
-.body div{
+.main, .side {
   display: inline-block;
   *display: inline; /* IE6,7 */
   *zoom: 1; /* IE6,7 */
@@ -31,10 +31,10 @@ p {
   background: #bbb;
   direction: ltr; /* 左から右へ */
 }
-.body div.main{
+.main {
   width: 250px;
 }
-.body div.side{
+.side {
   width: 100px;
   margin: 0 10px 0 0;
 }

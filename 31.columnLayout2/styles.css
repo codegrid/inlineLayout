@@ -28,7 +28,7 @@ p {
   background: #ddd;
   *zoom: 1; /* IE6,7バグ回避 */
 }
-.body .column {
+.column {
   display: inline-block;
   *display: inline; /* IE6,7 */
   *zoom: 1; /* IE6,7 */

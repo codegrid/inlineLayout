@@ -21,7 +21,7 @@ p {
   margin: 0 auto;
   background: #ddd;
 }
-.body div{
+.main, .side {
   display: inline-block;
   *display: inline; /* IE6,7 */
   *zoom: 1; /* IE6,7 */
@@ -29,10 +29,10 @@ p {
   text-align: left;
   background: #bbb;
 }
-.body div.main{
+.main {
   width: 250px;
 }
-.body div.side{
+.side {
   width: 100px;
   margin: 0 0 0 10px;
 }
